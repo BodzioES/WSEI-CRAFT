@@ -4,23 +4,20 @@ using UnityEngine;
 
 public class Checker : MonoBehaviour
 {
-    public bool check = false; 
+    public GameObject check ; 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Bricks")
+        Debug.Log("Triggered!");
+        if (collision.gameObject.tag == "Blocks")
         {
-            check = false;
-        }
-        else
-        {
-            check = false;
+            check = collision.gameObject;
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Bricks")
+        if (collision.gameObject.tag == "Blocks")
         {
-            check = false;
+            check = null;
         }
     }
 }

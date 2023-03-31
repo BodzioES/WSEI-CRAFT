@@ -30,6 +30,6 @@ public class Element : MonoBehaviour
     }
     private void OnDestroy()
     {
-        Instantiate(particle, new Vector2(transform.position.x, transform.position.y), quaternion.identity);
+        Instantiate(particle,transform.position,transform.rotation);
     }
 }
