@@ -7,9 +7,12 @@ public class Tetris : MonoBehaviour
     public Vector2 origin;
     Vector3 position;
     public int left = 1, right = 1, top = 1, down = 1;
-    void Start()
+    public Sprite[] sprites;
+    public int sprite;
+    void Awake()
     {
-        origin = transform.position;   
+        origin = transform.position;
+        sprite = Random.Range(0, sprites.Length);
     }
     private void FixedUpdate()
     {

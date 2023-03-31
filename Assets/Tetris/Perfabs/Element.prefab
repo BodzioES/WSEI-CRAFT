@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -5351414351173974658}
   - component: {fileID: -4384914485941362645}
   - component: {fileID: 7004520950572956980}
+  - component: {fileID: -2795408768137197743}
   m_Layer: 0
   m_Name: Element
   m_TagString: Blocks
@@ -166,3 +167,23 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &-2795408768137197743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6425587051025461460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a32b5543a40ea45b78f82716c93a0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 3e4685e70a294da4fb17d584786cdfaa, type: 3}
+  - {fileID: 21300000, guid: fb0460b6ad5639b48af118a4f388bf6b, type: 3}
+  - {fileID: 21300000, guid: eebbca58acab98b40add327e661c7173, type: 3}
+  - {fileID: 21300000, guid: 0a8338369f6791445ac6f536583b4410, type: 3}
+  - {fileID: 21300000, guid: 1adcabcdee116b74188947f59e0b95ac, type: 3}
+  - {fileID: 21300000, guid: f44d8876a42e00f4587613e6fd50ebd3, type: 3}
+  - {fileID: 21300000, guid: 38f0c38a7e3d99a48949e2fe92a62159, type: 3}

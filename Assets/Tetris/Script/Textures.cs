@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Textures : MonoBehaviour
 {
-    // Start is called before the first frame update
+    
     void Start()
     {
-        
+        Tetris g = transform.parent.GetComponent<Tetris>();
+        GetComponent<SpriteRenderer>().sprite = g.sprites[g.sprite];
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
