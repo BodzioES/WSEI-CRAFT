@@ -7,6 +7,7 @@ public class Tetris : MonoBehaviour
     public Vector2 origin;
     Vector3 position;
     public int left = 1, right = 1, top = 1, down = 1;
+    GameObject particle;
     void Start()
     {
         origin = transform.position;   
@@ -30,5 +31,9 @@ public class Tetris : MonoBehaviour
     public void backToOrigin()
     {
         transform.position = origin;
-    } 
+    }
+    public void explode() { 
+        Destroy(gameObject);
+    }
+
 }

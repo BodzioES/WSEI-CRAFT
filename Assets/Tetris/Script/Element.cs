@@ -6,6 +6,7 @@ using UnityEngine;
 public class Element : MonoBehaviour
 {
     public Tetris parent;
+    [SerializeField] GameObject particle;
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Blocks") return;
@@ -26,5 +27,9 @@ public class Element : MonoBehaviour
             else x = 0;
             parent.MoveBlock( new Vector2(Mathf.Floor(x), 0f));
         }
+    }
+    private void OnDestroy()
+    {
+        Instantiate(particle, new Vector2(transform.position.x, transform.position.y), quaternion.identity);
     }
 }

@@ -4,15 +4,24 @@ using UnityEngine;
 
 public class ClearLine : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField] Checker[] chekers;
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
+        bool all = false;
+        foreach (var cheker in chekers)
+        {
+            if (cheker.check == false)
+            {
+                all = true;
+                break;
+            }
+        }
+        if (all) { return; }
+        for(int i = 0; i< chekers.Length; i++)
+        {
+            chekers[i].GetComponent<Tetris>().explode();
+        }
+
     }
 }
