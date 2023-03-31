@@ -21,7 +21,7 @@ public class Tetris : MonoBehaviour
         if(left>4)left = 4;
         if (right>4)right = 4;  
         if(top>4)top = 4;   
-        if(down>4)down = 4; 
+        if(down>4)down = 4;
     }
     public void MoveBlock(Vector3 _position)
     {
@@ -30,5 +30,9 @@ public class Tetris : MonoBehaviour
     public void backToOrigin()
     {
         transform.position = origin;
-    } 
+    }
+    public void explode() { 
+        Destroy(gameObject);
+    }
+
 }
