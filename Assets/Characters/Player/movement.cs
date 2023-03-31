@@ -7,11 +7,16 @@ public class movement : MonoBehaviour
     Rigidbody2D body;
     Animator anim;
     public float runSpeed;
+    public GameObject FireBall;
+    public float cooldown;
+
+    Transform hand;
 
     public bool demage;
     public bool sleep;
 
     void Start(){
+        hand = GameObject.Find("hand").transform;
         anim = GetComponent<Animator>();
         body = GetComponent<Rigidbody2D>();
     }
@@ -19,21 +24,37 @@ public class movement : MonoBehaviour
     private void FixedUpdate(){
         Vector2 move = GetComponent<Inputscript>().movement;
         body.velocity = new Vector2(move.x*runSpeed,move.y * runSpeed);
-
-        
-
-        Debug.Log(move);
     }
 
     void Update()
     {
+
+        //FireBall
+        if (Input.GetMouseButtonDown(0) && cooldown <= 0f)
+        {
+            if(this.transform.localRotation.y == -180f)
+            {
+                Instantiate(FireBall, hand.position, Quaternion.Euler(0, 180, 0));
+            }
+            else if (this.transform.localRotation.y == 0f)
+            {
+                Instantiate(FireBall, hand.position, Quaternion.Euler(0, 0, 0));
+            }
+            
+            cooldown = 0.5f;
+
+        }else if(cooldown >= 0)
+        {
+            cooldown -= Time.deltaTime;
+        }
+
         Vector2 move = GetComponent<Inputscript>().movement;
         Animations(move);
     }
 
     void Animations(Vector2 move)
     { 
-        if(move.x == 0 && move.y == 0) //idle
+        if(move.x == 0 && move.y == 0 && demage == false && sleep == false) //idle
         {
             anim.Play("idle");
         }

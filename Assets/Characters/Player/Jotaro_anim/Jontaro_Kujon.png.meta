@@ -1,0 +1,1179 @@
+fileFormatVersion: 2
+guid: 4ba40e89ca497b84a8b2b9f6a1131ba6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jontaro_Kujon_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 120
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59aa4e398edcfe24d87f36a992854c18
+      internalID: -1946629727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_1
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 120
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f3dc830a8327c4eb864323489be0f7
+      internalID: -627394009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 120
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ae635dd68ed734e80ea34c5b5bfd4e
+      internalID: 1054682910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_3
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 120
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8239efcf5604a804f91a79a280ca4fdd
+      internalID: 461065110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 120
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cea1df56dd15cc4681932544b3a7724
+      internalID: -1845881416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_5
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 120
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d5d55b9e29a384495dab483e4c4e99
+      internalID: 1696937191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 120
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf1ec2161a5be194fb9c02879e654aa2
+      internalID: 872142551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_7
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 120
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450b0c616c5202644ae4e79ba0244ed3
+      internalID: 1368543276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_8
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 96
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11ea0945c9cb74b4aaf661e9189a0166
+      internalID: -849016902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_9
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 96
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38fef5924eb2ee24693c68cacc00c662
+      internalID: -1546292879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 96
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b49633380e58c7a489f0213386f117dd
+      internalID: 1020298839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 96
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e19b20d3abcc3d4b8c44bc173a582ea
+      internalID: -1996016349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_12
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34b97bd163bb9f047a2f3bef4466d47a
+      internalID: -1174100682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_13
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0280a6f2151a11a43880a8f1c3b88c7b
+      internalID: 527493658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 96
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 261d87d4c8fc6a744a5f6fe446b2bd8c
+      internalID: 469311734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_15
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 96
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07bd403095cf449418deb7830efc882e
+      internalID: -2094947548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 73
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40444928bc9407a4d92731d744f3b9f3
+      internalID: 1741504082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_17
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 74
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231cc29eaa4cfda459222fe818fbc34d
+      internalID: -1508565840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 72
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ec7eba987ce624c9c24162e104ba60
+      internalID: -651471318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_19
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 72
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c78db08e0cce0054699d3ddce53f3b8f
+      internalID: 1085356380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_20
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 73
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdb1e6b0f29685458709eae207ee715
+      internalID: 1039646584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 74
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5173c73af662bf4ab0e4e2dc95bf04d
+      internalID: -1632233514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_22
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 72
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8681f0cbf80734f4aa91fe2d3a5bf5a0
+      internalID: 434040414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_23
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 72
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abef0a4319979194b9ec199126b8340a
+      internalID: 310567310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_24
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 48
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 530292f5bc9d0954f92be29c01899a10
+      internalID: 1061903833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_25
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 48
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e21faf284b7901141a88062e5bf4418e
+      internalID: 587547434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_26
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 48
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7126f60081006254483a6ae9dd49fba0
+      internalID: -366546262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_27
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 48
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d6fcb9120d74442a6158a003bfe71c
+      internalID: 2083011821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_28
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 48
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6f5fbd11e1a8e4b954f9f05bd59026
+      internalID: 2004451348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_29
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 48
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d1e48192998743429ca7d59a2adb505
+      internalID: -1631237669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_30
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 48
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 920be385cd62e5d4ca73743f36498ce0
+      internalID: 1092230694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_31
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 48
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920a9334e8367d44b8e5eac9d73c56d
+      internalID: -2052791080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_32
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 24
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9c785d836d13840b74163b89f447bd
+      internalID: -325346506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_33
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 24
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeb9065898d4f72449b4a3e32bffd80d
+      internalID: 2045531917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_34
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 24
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df711d049e68b9b4ca4a86fd8ddbd026
+      internalID: 1863750260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_35
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 24
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ff38cd352dca44d96e99601d3c2114
+      internalID: 1649034947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_36
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 24
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42eedb5e83d69f54790a3db92a334a40
+      internalID: 1924521293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_37
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 24
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5932e7afb73cea9499a9d154d06cd70f
+      internalID: 1150457394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_38
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 24
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db93403c4313ad043866f5dff8c5e636
+      internalID: 1479635021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_39
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 24
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a72f78404bb5a94e9e017f177ebf82a
+      internalID: -1262464951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_40
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 0
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a42eccf94d6b6c34aba168a035ff462b
+      internalID: 634333959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_41
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffa930fb07f0474a988c4ff1c828a73
+      internalID: -1673821148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_42
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4daf0694348d54187e90e25889f94a
+      internalID: -1201850259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_43
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784a01e122c47d2409cf8b5b2b9af266
+      internalID: -285120637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_44
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 0
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0b33d348f7b30c4ab312963e440befc
+      internalID: -1877288040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_45
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc91f2955e038e744ad6f0a04ce735de
+      internalID: 962784326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_46
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374d4cd59c3f7814ab2793a367ee1298
+      internalID: 363035130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jontaro_Kujon_47
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 0
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61201ce9d9039d446a72a5266b0bd337
+      internalID: -1305233221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Jontaro_Kujon_0: -1946629727
+      Jontaro_Kujon_1: -627394009
+      Jontaro_Kujon_10: 1020298839
+      Jontaro_Kujon_11: -1996016349
+      Jontaro_Kujon_12: -1174100682
+      Jontaro_Kujon_13: 527493658
+      Jontaro_Kujon_14: 469311734
+      Jontaro_Kujon_15: -2094947548
+      Jontaro_Kujon_16: 1741504082
+      Jontaro_Kujon_17: -1508565840
+      Jontaro_Kujon_18: -651471318
+      Jontaro_Kujon_19: 1085356380
+      Jontaro_Kujon_2: 1054682910
+      Jontaro_Kujon_20: 1039646584
+      Jontaro_Kujon_21: -1632233514
+      Jontaro_Kujon_22: 434040414
+      Jontaro_Kujon_23: 310567310
+      Jontaro_Kujon_24: 1061903833
+      Jontaro_Kujon_25: 587547434
+      Jontaro_Kujon_26: -366546262
+      Jontaro_Kujon_27: 2083011821
+      Jontaro_Kujon_28: 2004451348
+      Jontaro_Kujon_29: -1631237669
+      Jontaro_Kujon_3: 461065110
+      Jontaro_Kujon_30: 1092230694
+      Jontaro_Kujon_31: -2052791080
+      Jontaro_Kujon_32: -325346506
+      Jontaro_Kujon_33: 2045531917
+      Jontaro_Kujon_34: 1863750260
+      Jontaro_Kujon_35: 1649034947
+      Jontaro_Kujon_36: 1924521293
+      Jontaro_Kujon_37: 1150457394
+      Jontaro_Kujon_38: 1479635021
+      Jontaro_Kujon_39: -1262464951
+      Jontaro_Kujon_4: -1845881416
+      Jontaro_Kujon_40: 634333959
+      Jontaro_Kujon_41: -1673821148
+      Jontaro_Kujon_42: -1201850259
+      Jontaro_Kujon_43: -285120637
+      Jontaro_Kujon_44: -1877288040
+      Jontaro_Kujon_45: 962784326
+      Jontaro_Kujon_46: 363035130
+      Jontaro_Kujon_47: -1305233221
+      Jontaro_Kujon_5: 1696937191
+      Jontaro_Kujon_6: 872142551
+      Jontaro_Kujon_7: 1368543276
+      Jontaro_Kujon_8: -849016902
+      Jontaro_Kujon_9: -1546292879
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
