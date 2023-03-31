@@ -7,6 +7,11 @@ public class Element : MonoBehaviour
 {
     public Tetris parent;
     [SerializeField] GameObject particle;
+    private void Start()
+    {
+        parent.rotate += counterRotate;
+        Debug.Log("Subscribed!");
+    }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Blocks") return;
@@ -27,6 +32,11 @@ public class Element : MonoBehaviour
             else x = 0;
             parent.MoveBlock( new Vector2(Mathf.Floor(x), 0f));
         }
+    }
+    public void counterRotate()
+    {
+        Debug.Log("rotate");
+        transform.Rotate(0, 0, -90);
     }
     private void OnDestroy()
     {

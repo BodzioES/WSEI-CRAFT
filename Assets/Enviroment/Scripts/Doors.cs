@@ -4,15 +4,30 @@ using UnityEngine;
 
 public class Doors : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] Botton[] buttons;
+    [SerializeField] GameObject particles;
+    private void Start()
     {
-        
+        if(buttons != null)
+        {
+            foreach(Botton button in buttons)
+            {
+                button.click += Check;
+            }
+        }
     }
-
-    // Update is called once per frame
-    void Update()
+    public void Check()
     {
-        
+        foreach(Botton button in buttons)
+        {
+            if (button.Clicked != true) return;
+        }
+        Open();
+    }
+    public void Open()
+    {
+        foreach (Botton button in buttons) button.click -= Check;
+        Instantiate(particles, transform.position,transform.rotation);
+        Destroy(gameObject);
     }
 }
