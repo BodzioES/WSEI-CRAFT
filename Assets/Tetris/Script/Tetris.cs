@@ -37,7 +37,7 @@ public class Tetris : MonoBehaviour
     public void rotateTetris()
     {
         transform.Rotate(0, 0, 90);
-        transform.position = new Vector2(Mathf.Floor(transform.position.x), Mathf.Floor(transform.position.y));
+        transform.position = new Vector2(Mathf.Floor(transform.position.x+0.5f), Mathf.Floor(transform.position.y+0.5f));
         rotate();
     }
     public void backToOrigin()
