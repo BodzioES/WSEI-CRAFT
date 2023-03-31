@@ -48,10 +48,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a9c7b76e0385a1469df18aa07cb2b64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  origin: {x: 0, y: 0}
   left: 1
   right: 1
   top: 1
   down: 1
+  sprites:
+  - {fileID: 21300000, guid: 3e4685e70a294da4fb17d584786cdfaa, type: 3}
+  - {fileID: 21300000, guid: eebbca58acab98b40add327e661c7173, type: 3}
+  - {fileID: 21300000, guid: fb0460b6ad5639b48af118a4f388bf6b, type: 3}
+  - {fileID: 21300000, guid: 0a8338369f6791445ac6f536583b4410, type: 3}
+  - {fileID: 21300000, guid: 1adcabcdee116b74188947f59e0b95ac, type: 3}
+  - {fileID: 21300000, guid: f44d8876a42e00f4587613e6fd50ebd3, type: 3}
+  - {fileID: 21300000, guid: 38f0c38a7e3d99a48949e2fe92a62159, type: 3}
+  sprite: 0
 --- !u!1001 &968595078034955478
 PrefabInstance:
   m_ObjectHideFlags: 0

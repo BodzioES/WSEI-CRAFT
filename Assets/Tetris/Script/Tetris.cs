@@ -7,9 +7,12 @@ public class Tetris : MonoBehaviour
     public Vector2 origin;
     Vector3 position;
     public int left = 1, right = 1, top = 1, down = 1;
-    void Start()
+    public Sprite[] sprites;
+    public int sprite;
+    void Awake()
     {
-        origin = transform.position;   
+        origin = transform.position;
+        sprite = Random.Range(0, sprites.Length);
     }
     private void FixedUpdate()
     {
@@ -21,7 +24,7 @@ public class Tetris : MonoBehaviour
         if(left>4)left = 4;
         if (right>4)right = 4;  
         if(top>4)top = 4;   
-        if(down>4)down = 4; 
+        if(down>4)down = 4;
     }
     public void MoveBlock(Vector3 _position)
     {
@@ -30,5 +33,9 @@ public class Tetris : MonoBehaviour
     public void backToOrigin()
     {
         transform.position = origin;
-    } 
+    }
+    public void explode() { 
+        Destroy(gameObject);
+    }
+
 }
