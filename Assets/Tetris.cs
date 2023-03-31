@@ -4,23 +4,31 @@ using UnityEngine;
 
 public class Tetris : MonoBehaviour
 {
+    public Vector2 origin;
     Vector3 position;
-    Rigidbody2D rb;
-    private void Start()
+    public int left = 1, right = 1, top = 1, down = 1;
+    void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        origin = transform.position;   
     }
     private void FixedUpdate()
     {
         if (position != transform.position)
         {
-            rb.velocity = Vector3.zero;
-            rb.MovePosition(transform.position + position * Time.fixedDeltaTime*24f);
-            position = transform.position;
+            transform.position += position * Time.fixedDeltaTime*24f;
+            position -= position * Time.fixedDeltaTime * 24f;
         }
+        if(left>4)left = 4;
+        if (right>4)right = 4;  
+        if(top>4)top = 4;   
+        if(down>4)down = 4; 
     }
-    public void MoveBlock(Vector2 _position)
+    public void MoveBlock(Vector3 _position)
     {
         position = _position;
     }
+    public void backToOrigin()
+    {
+        transform.position = origin;
+    } 
 }

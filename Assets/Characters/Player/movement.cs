@@ -13,7 +13,7 @@ public class movement : MonoBehaviour
 
     private void FixedUpdate(){
         Vector2 move = GetComponent<Inputscript>().movement;
-        body.velocity = new Vector2(move.x,move.y);
+        body.velocity = new Vector2(move.x*runSpeed,move.y * runSpeed);
     }
 
 }
