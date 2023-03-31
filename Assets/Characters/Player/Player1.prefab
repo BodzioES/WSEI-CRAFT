@@ -156,6 +156,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b80ddd775b1a984db01b7b8311fc02f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  horizontalInput: Horizontal
+  veritcalInput: Vertical
   Player1: 0
   Player2: 0
   movement: {x: 0, y: 0}

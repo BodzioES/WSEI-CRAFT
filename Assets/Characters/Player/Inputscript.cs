@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Inputscript : MonoBehaviour
 {
-
+    public string horizontalInput;
+    public string veritcalInput;
     //Player 1
     public bool Player1;
 
@@ -17,8 +18,8 @@ public class Inputscript : MonoBehaviour
     public Vector2 movement;
 
     void Update(){
-        horizontal = Input.GetAxisRaw("Horizontal");
-        vertical = Input.GetAxisRaw("Vertical");
+        horizontal = Input.GetAxisRaw(horizontalInput);
+        vertical = Input.GetAxisRaw(veritcalInput);
 
         movement = new Vector2(horizontal, vertical);
     }
