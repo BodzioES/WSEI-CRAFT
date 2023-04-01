@@ -10,7 +10,11 @@ public class SpawnPoint : MonoBehaviour
     public GameObject Player = null;
 
     int index = 0;
-
+    public static SpawnPoint player;
+    private void Awake()
+    {
+        player = this;
+    }
     public void addtindex()
     {
         index++;
@@ -21,12 +25,17 @@ public class SpawnPoint : MonoBehaviour
         index--;
     }
 
-    public void SpawnPlayer()
-    { 
-        Player = Players[index];
-    }
-
     void Start(){
         DontDestroyOnLoad(this);
+    }
+    private void Update()
+    {
+        Player = Players[index];
+    }
+    public void OnSceneLoad()
+    {
+        
+            Instantiate(Player,SpawnPlayer.pos,Quaternion.identity);
+            Destroy(gameObject);
     }
 }
