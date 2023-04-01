@@ -11,6 +11,7 @@ public class screenshake : MonoBehaviour
     public float shakeAmount;
     public float decreaseFactor;
     public float timer;
+    public GameObject Player;
 
     void Start()
     {
@@ -41,7 +42,8 @@ public class screenshake : MonoBehaviour
 
             if (shake > 0f)
             {
-                Main.transform.localPosition = Random.insideUnitSphere * shakeAmount;
+               
+                Main.transform.localPosition = (Random.insideUnitSphere * shakeAmount + transform.localPosition);
                 shake -= Time.deltaTime * decreaseFactor;
                 transform.position = new Vector3(transform.position.x, transform.position.y, -10);
             }
