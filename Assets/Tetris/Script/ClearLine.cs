@@ -20,7 +20,7 @@ public class ClearLine : MonoBehaviour
         if (all) { return; }
         for(int i = 0; i< chekers.Length; i++)
         {
-            if (chekers[i] == null) return;
+            if (chekers[i].gameObject == null) return;
             chekers[i].check.transform.parent.GetComponent<Tetris>().explode();
         }
 
