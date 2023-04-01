@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/RealGame.unity
     guid: e143e274385c26445a08f10d4ef2b37f
+  - enabled: 1
+    path: Assets/Scenes/ChooseMap.unity
+    guid: fb7913b0f7b88494584612d74990c892
   m_configObjects: {}

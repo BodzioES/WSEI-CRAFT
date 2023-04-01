@@ -25,6 +25,11 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
 
+    public void ChooseMap()
+    {
+        SceneManager.LoadScene(5);
+    }
+
     public void RealGame()
     {
         SceneManager.LoadScene(4);
