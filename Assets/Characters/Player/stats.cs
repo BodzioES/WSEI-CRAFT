@@ -16,19 +16,5 @@ public class stats : MonoBehaviour
         hearts = GameObject.Find("HealthController");
         
     }
-    
-    void Update()
-    {
-
-        /*if(hp <= 0)
-        {
-            gameObject.GetComponent<movement>().sleep = true;
-            hp = 0;
-        }
-        else if(hp > 0)
-        {
-            hearts.GetComponent<HealthControler>().playerHealth = hp;
-        }*/
-    }
 
 }

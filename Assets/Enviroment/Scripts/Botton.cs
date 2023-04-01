@@ -20,7 +20,7 @@ public class Botton : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        audioSource.Play();
+        if(audioSource)audioSource.Play();
         if (!onetime) return;
         if (collision != null)
         {
