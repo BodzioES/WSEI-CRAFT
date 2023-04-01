@@ -85,7 +85,7 @@ public class movement : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.tag == "Pacman")
+        if (other.gameObject.tag == "Pacman" || other.gameObject.tag == "Enemy")
         {
             GetComponent<stats>().hp -= other.gameObject.GetComponent<PacmanScript>().demage;
 
@@ -99,8 +99,9 @@ public class movement : MonoBehaviour
             
             transform.position += (transform.position - other.gameObject.transform.position);
             
+        }else if(other.gameObject.tag == "Wall")
+        {
+            //transform.position = (transform.position - other.gameObject.transform.position);
         }
-        
     }
-
 }
