@@ -21,15 +21,18 @@ EditorBuildSettings:
     path: Assets/Scenes/RealGame.unity
     guid: e143e274385c26445a08f10d4ef2b37f
   - enabled: 1
-    path: Assets/Scenes/MainWord.unity
-    guid: 625c4a0935638c5468ffb2b34d19bec6
-  - enabled: 1
     path: Assets/Scenes/Mapa.unity
     guid: 5442cf2253b85ad419c8e78793540820
   - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: b77b0cde146f4c44c9ea5bcdef110b9e
+    path: Assets/Scenes/MainWord.unity
+    guid: 625c4a0935638c5468ffb2b34d19bec6
   - enabled: 1
     path: Assets/Scenes/LVL.unity
     guid: 9f98549e1045f014abd973f735ffeadb
+  - enabled: 1
+    path: Assets/Scenes/KiviWorld.unity
+    guid: bf23cbadbe3d0b54a86c4fcebc5280f2
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: b77b0cde146f4c44c9ea5bcdef110b9e
   m_configObjects: {}
