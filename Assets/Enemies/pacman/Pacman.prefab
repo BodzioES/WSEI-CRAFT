@@ -147,8 +147,8 @@ MonoBehaviour:
   players: []
   target: {fileID: 0}
   hp: 10
-  demage: 3
-  speed: 3
+  demage: 2
+  speed: 3.5
 --- !u!58 &6906300072385688816
 CircleCollider2D:
   m_ObjectHideFlags: 0

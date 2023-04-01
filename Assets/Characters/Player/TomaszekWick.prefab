@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 0}
-  runSpeed: 10
+  runSpeed: 5.2
   FireBall: {fileID: 7570904451010212709, guid: 22c93a35a6bb0cd409af398ce396c762, type: 3}
   cooldown: 0
   demage: 0
@@ -197,8 +197,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   thrust: 20
-  maxhp: 10
-  hp: 10
+  maxhp: 5
+  hp: 5
 --- !u!1 &6418896978776435372
 GameObject:
   m_ObjectHideFlags: 0
