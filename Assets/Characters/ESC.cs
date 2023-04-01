@@ -16,10 +16,10 @@ public class ESC : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Escape) && open == true) { 
+        if (Input.GetKeyDown(KeyCode.Escape) && open == true) { 
             Menu.transform.localScale = new Vector3(1, 0, 1);
             open = false;
-        }else if(Input.GetKey(KeyCode.Escape) && open == false)
+        }else if(Input.GetKeyDown(KeyCode.Escape) && open == false)
         {
             Menu.transform.localScale = new Vector3(1, 1, 1);
             open = true;
