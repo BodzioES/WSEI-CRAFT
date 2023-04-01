@@ -12,7 +12,7 @@ public class Element : MonoBehaviour
         parent.rotate += counterRotate;
         Debug.Log("Subscribed!");
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Blocks") return;
         float x = transform.position.x- collision.transform.position.x;

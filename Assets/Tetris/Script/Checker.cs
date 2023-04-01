@@ -5,7 +5,7 @@ using UnityEngine;
 public class Checker : MonoBehaviour
 {
     public GameObject check ; 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         Debug.Log("Triggered!");
         if (collision.gameObject.tag == "Blocks")
