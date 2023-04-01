@@ -7,7 +7,7 @@ public class Detector : MonoBehaviour
     int left = 1, right = 1, top = 1, down = 1;
     [SerializeField]Tetris parent;
     Transform parentObject;
-    float dist = 0.9f;
+    float dist = 0.8f;
     private void Start()
     {
         parentObject = transform.parent;
