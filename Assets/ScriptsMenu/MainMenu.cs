@@ -7,12 +7,12 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        SceneManager.LoadScene(1);
     }
 
     public void Credits()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+        SceneManager.LoadScene(2);
     }
 
     public void Menu()
@@ -22,22 +22,18 @@ public class MainMenu : MonoBehaviour
 
     public void Options()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
+        SceneManager.LoadScene(3);
     }
 
     public void ChooseMap()
     {
-        SceneManager.LoadScene(5);
-    }
-
-    public void RealGame()
-    {
         SceneManager.LoadScene(4);
     }
 
+
+
     public void QuitGame()
     {
-        Debug.Log("QUIT");
         Application.Quit();
     }
 }
