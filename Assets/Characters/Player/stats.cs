@@ -9,13 +9,12 @@ public class stats : MonoBehaviour
     public int hp;
     public GameObject hearts;
 
-    Rigidbody2D rigidbody;
     Animator anim;
 
     void Start()
     {
         hearts = GameObject.Find("HealthController");
-        rigidbody = GetComponent<Rigidbody2D>();
+        
     }
     
     void Update()
