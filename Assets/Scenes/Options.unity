@@ -580,8 +580,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -215.66454, y: 40.214684}
-  m_SizeDelta: {x: 329.331, y: 60.48}
+  m_AnchoredPosition: {x: -100.896835, y: 40.214684}
+  m_SizeDelta: {x: 558.8665, y: 60.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &268200744
 MonoBehaviour:
@@ -873,7 +873,7 @@ MonoBehaviour:
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 1
-  m_Value: 0
+  m_Value: 20
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
@@ -1255,7 +1255,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.2919006, y: 28.943016}
+  m_AnchoredPosition: {x: 151.13, y: 28.942}
   m_SizeDelta: {x: 175.7523, y: 57.885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &850559732
@@ -1997,8 +1997,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -218.66461, y: 33.057686}
-  m_SizeDelta: {x: 329.3309, y: 57.886}
+  m_AnchoredPosition: {x: -109.03, y: 33.057686}
+  m_SizeDelta: {x: 548.6, y: 57.886}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1470590591
 MonoBehaviour:
@@ -2033,7 +2033,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: SFX Volume
+  m_Text: 'SFX Volume - nie dziala
+
+'
 --- !u!222 &1470590592
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2077,8 +2079,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -238.95712, y: 28.943}
-  m_SizeDelta: {x: 310.7457, y: 57.885}
+  m_AnchoredPosition: {x: -108.15614, y: 28.943}
+  m_SizeDelta: {x: 572.3578, y: 57.885}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1475598894
 MonoBehaviour:
@@ -2113,7 +2115,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Music Volume
+  m_Text: 'Music Volume - nie dziala
 
 '
 --- !u!222 &1475598895
@@ -2456,7 +2458,7 @@ AudioSource:
   m_GameObject: {fileID: 1869528687}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -8948931505233287838, guid: f9ab179f259843948aeabef4464b84e1, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
