@@ -5,9 +5,10 @@ using UnityEngine;
 
 public class SpawnPlayer : MonoBehaviour
 {
-    public static SpawnPlayer Singelton;
+    public static Vector3 pos;
     public void Awake()
     {
-        Singelton = this;
+        pos = transform.position;
+        SpawnPoint.player.OnSceneLoad();
     }
 }
