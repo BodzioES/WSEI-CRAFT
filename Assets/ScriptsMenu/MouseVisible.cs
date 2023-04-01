@@ -2,19 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class lookatmouse : MonoBehaviour
+public class MouseVisible : MonoBehaviour
 {
-
     void Start()
     {
         // Hides the cursor...
-        Cursor.visible = false;
+        Cursor.visible = true;
         // Lock the cursor...
-        Cursor.lockState = CursorLockMode.Locked;
-    }
-
-    void OnSceneLoad()
-    {
-
+        Cursor.lockState = CursorLockMode.None;
     }
 }
