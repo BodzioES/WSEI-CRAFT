@@ -8,6 +8,7 @@ public class ChangeMap : MonoBehaviour
     [SerializeField] int id;
     private void Start()
     {
+        if (button != null)
         button.click += Change;
     }
     public void Change()
