@@ -6,6 +6,7 @@ using UnityEngine;
 public class Botton : MonoBehaviour
 {
     public bool Clicked = false;
+    public AudioSource audioSource; 
     Sprite baseSprite;
     [SerializeField] Sprite clicked;
     public event Action click;
@@ -15,15 +16,22 @@ public class Botton : MonoBehaviour
     private void Awake()
     {
         baseSprite = GetComponent<SpriteRenderer>().sprite;
+        audioSource = GetComponent<AudioSource>();
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        audioSource.Play();
         if (!onetime) return;
         if (collision != null)
         {
             Clicked = true;
             GetComponent<SpriteRenderer>().sprite = clicked;
-            if(click!=null) click();
+            
+
+            if(click!=null) 
+            {
+                click(); 
+            }
         }
     }
     private void OnTriggerStay2D(Collider2D collision)
