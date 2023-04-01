@@ -15,6 +15,10 @@ public class Camera_position : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.position = new Vector3(Player[0].transform.position.x, Player[0].transform.position.y,-offset);
+        if(GetComponent<screenshake>().start == false)
+        {
+            transform.position = new Vector3(Player[0].transform.position.x, Player[0].transform.position.y,-offset);
+        }
+       
     }
 }
