@@ -9,7 +9,7 @@ public class HealthControler : MonoBehaviour
 
     [SerializeField] private Image[] hearts;
 
-    private void Start() {
+    void Start() {
         UpdateHealth();
     }
 
@@ -17,7 +17,7 @@ public class HealthControler : MonoBehaviour
     {
         for(int i=0;i<hearts.Length;i++)
         {
-            if(i<playerHealth)
+            if(i>-1)
             {
                 hearts[i].color = Color.red;
             }

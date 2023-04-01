@@ -7,12 +7,14 @@ public class stats : MonoBehaviour
     public float thrust;
     public int maxhp;
     public int hp;
+    public GameObject hearts;
 
     Rigidbody2D rigidbody;
     Animator anim;
 
     void Start()
     {
+        hearts = GameObject.Find("HealthController");
         rigidbody = GetComponent<Rigidbody2D>();
     }
     
@@ -23,6 +25,10 @@ public class stats : MonoBehaviour
         {
             gameObject.GetComponent<movement>().sleep = true;
             hp = 0;
+        }
+        else if(hp > 0)
+        {
+            hearts.GetComponent<HealthControler>().playerHealth = hp;
         }
     }
 
