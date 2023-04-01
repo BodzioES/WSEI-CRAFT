@@ -33,16 +33,15 @@ public class movement : MonoBehaviour
     void Update()
     {
 
-        //FireBall
+        /*FireBall
         if (Input.GetMouseButtonDown(0) && cooldown <= 0f)
         {
             Instantiate(FireBall, hand.position, transform.rotation);
             cooldown = 0.5f;
-          
         }else if(cooldown >= 0)
         {
             cooldown -= Time.deltaTime;
-        }
+        }*/
 
         Vector2 move = GetComponent<Inputscript>().movement;
         Animations(move);
@@ -83,7 +82,7 @@ public class movement : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    /*void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.tag == "Pacman" || other.gameObject.tag == "Enemy")
         {
@@ -103,9 +102,6 @@ public class movement : MonoBehaviour
             
             transform.position += (transform.position - other.gameObject.transform.position);
             
-        }else if(other.gameObject.tag == "Wall")
-        {
-            //transform.position = (transform.position - other.gameObject.transform.position);
         }
-    }
+    }*/
 }

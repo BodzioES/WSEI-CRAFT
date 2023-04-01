@@ -21,7 +21,7 @@ public class stats : MonoBehaviour
     void Update()
     {
 
-        if(hp <= 0)
+        /*if(hp <= 0)
         {
             gameObject.GetComponent<movement>().sleep = true;
             hp = 0;
@@ -29,7 +29,7 @@ public class stats : MonoBehaviour
         else if(hp > 0)
         {
             hearts.GetComponent<HealthControler>().playerHealth = hp;
-        }
+        }*/
     }
 
 }
