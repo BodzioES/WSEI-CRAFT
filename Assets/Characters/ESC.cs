@@ -10,6 +10,7 @@ public class ESC : MonoBehaviour
 
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         Menu.transform.localScale = new Vector3(1, 0, 1);
     }
 
