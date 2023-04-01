@@ -5,14 +5,11 @@ using UnityEngine;
 public class lookatmouse : MonoBehaviour
 {
 
-    private void Update()
+    void Start()
     {
-        LookAtMouse2();
-    }
-
-    private void LookAtMouse2()
-    {
-        Vector2 mousePos = UnityEngine.Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        transform.up = mousePos - new Vector2(transform.position.x, transform.position.y);
+        // Hides the cursor...
+        Cursor.visible = false;
+        // Lock the cursor...
+        Cursor.lockState = CursorLockMode.Locked;
     }
 }

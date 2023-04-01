@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Blocks
   - Characters
+  - Bullet
+  - Pacman
   layers:
   - Default
   - TransparentFX

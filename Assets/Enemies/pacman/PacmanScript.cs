@@ -7,6 +7,8 @@ public class PacmanScript : MonoBehaviour
     public GameObject[] players;
 
     public Transform target;
+    public int hp;
+    public int demage;
 
     public float speed;
 
@@ -17,6 +19,7 @@ public class PacmanScript : MonoBehaviour
 
     void Awake()
     {
+        transform.position = new Vector3(transform.position.x, transform.position.y,0);
         Old = new Vector2(0, 0);
         anim = GetComponent<Animator>();
         players = GameObject.FindGameObjectsWithTag("Player");
@@ -24,7 +27,10 @@ public class PacmanScript : MonoBehaviour
 
     void Update(){
 
-        
+        if(hp <= 0)
+        {
+            Destroy(gameObject);
+        }
 
         if (players.Length > 1)//Jeœli 2 graczy
         {
@@ -64,5 +70,15 @@ public class PacmanScript : MonoBehaviour
         }
         
         Old = gameObject.transform.position;
-    }   
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.tag == "Bullet")
+        {
+            hp -= other.gameObject.GetComponent<bullet>().demage;
+            anim.Play("demage");
+            Destroy(other.gameObject);
+        }
+    }
 }
