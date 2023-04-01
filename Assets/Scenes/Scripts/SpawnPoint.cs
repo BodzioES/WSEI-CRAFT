@@ -26,7 +26,7 @@ public class SpawnPoint : MonoBehaviour
     }
 
     void Start(){
-        DontDestroyOnLoad(this);
+        DontDestroyOnLoad(gameObject);
     }
     private void Update()
     {
@@ -36,6 +36,6 @@ public class SpawnPoint : MonoBehaviour
     {
         
             Instantiate(Player,SpawnPlayer.pos,Quaternion.identity);
-            Destroy(gameObject);
+            if(gameObject) Destroy(this);
     }
 }
