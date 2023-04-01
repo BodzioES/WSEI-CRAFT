@@ -12,4 +12,9 @@ public class lookatmouse : MonoBehaviour
         // Lock the cursor...
         Cursor.lockState = CursorLockMode.Locked;
     }
+
+    void OnSceneLoad()
+    {
+
+    }
 }
