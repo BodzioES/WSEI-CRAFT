@@ -4,51 +4,51 @@ using UnityEngine;
 
 public class screenshake : MonoBehaviour
 {
-    // Transform of the GameObject you want to shake
-    private Transform transform;
+    GameObject Main;
 
-    // Desired duration of the shake effect
-    private float shakeDuration = 0f;
+    public float shake;
+    public bool start = false;
+    public float shakeAmount;
+    public float decreaseFactor;
+    public float timer;
 
-    // A measure of magnitude for the shake. Tweak based on your preference
-    private float shakeMagnitude = 0.7f;
-
-    // A measure of how quickly the shake effect should evaporate
-    private float dampingSpeed = 1.0f;
-
-    // The initial position of the GameObject
-    Vector3 initialPosition;
-
-    void Awake()
+    void Start()
     {
-        if (transform == null)
-        {
-            transform = GetComponent(typeof(Transform)) as Transform;
-        }
-    }
-
-    void OnEnable()
-    {
-        initialPosition = transform.localPosition;
+        Main = GameObject.Find("Main Camera");
     }
 
     void Update()
     {
-        if (shakeDuration > 0)
-        {
-            transform.localPosition = initialPosition + Random.insideUnitSphere * shakeMagnitude;
 
-            shakeDuration -= Time.deltaTime * dampingSpeed;
+        if(timer > 0)
+        {
+            timer -= Time.deltaTime;
+            ShakeScreen(0.1f, 0.1f, 0.1f);
         }
         else
         {
-            shakeDuration = 0f;
-            transform.localPosition = initialPosition;
+            start = false;
+            timer = 0;
         }
+        //ShakeScreen(shake, decreaseFactor, shakeAmount); Deklaracja
     }
 
-    public void TriggerShake()
+    public void ShakeScreen(float shake,float Factor,float Amount)
     {
-        shakeDuration = 0.5f;
+
+            decreaseFactor = Factor;
+            shakeAmount = Amount;
+
+            if (shake > 0f)
+            {
+                Main.transform.localPosition = Random.insideUnitSphere * shakeAmount;
+                shake -= Time.deltaTime * decreaseFactor;
+                transform.position = new Vector3(transform.position.x, transform.position.y, -10);
+            }
+            else
+            {
+                shake = 0.0f;
+            }
+        
     }
 }

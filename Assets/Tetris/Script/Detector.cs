@@ -7,7 +7,7 @@ public class Detector : MonoBehaviour
     int left = 1, right = 1, top = 1, down = 1;
     [SerializeField]Tetris parent;
     Transform parentObject;
-    float dist = 0.5f;
+    float dist = 0.9f;
     private void Start()
     {
         parentObject = transform.parent;
@@ -17,7 +17,7 @@ public class Detector : MonoBehaviour
         RaycastHit2D hit;
         
         if (left==1)  
-            if((hit = Physics2D.Raycast(transform.position - transform.right*0.5f, -transform.right,dist))!=false && (hit.collider.gameObject.tag != "Characters" && hit.transform.parent != parentObject))
+            if((hit = Physics2D.Raycast(transform.position - transform.right, -transform.right,dist))!=false && (hit.collider.gameObject.tag != "Characters" && hit.transform.parent != parentObject))
             {   
             
                 parent.left = 0;
@@ -28,7 +28,7 @@ public class Detector : MonoBehaviour
             }
         
         if (right==1) 
-            if((hit = Physics2D.Raycast(transform.position + transform.right * 0.5f, transform.right, dist)) && (hit.collider.gameObject.tag != "Characters" && hit.transform.parent != parentObject))
+            if((hit = Physics2D.Raycast(transform.position + transform.right , transform.right, dist)) && (hit.collider.gameObject.tag != "Characters" && hit.transform.parent != parentObject))
             {
                 parent.right = 0;
             }
@@ -38,7 +38,7 @@ public class Detector : MonoBehaviour
             }
         
         if (top == 1) 
-            if((hit = Physics2D.Raycast(transform.position + transform.up * 0.5f, transform.up, dist)) && (hit.collider.gameObject.tag != "Characters" && hit.transform.parent != parentObject))
+            if((hit = Physics2D.Raycast(transform.position + transform.up , transform.up, dist)) && (hit.collider.gameObject.tag != "Characters" && hit.transform.parent != parentObject))
             {
                 parent.top = 0;
             }
@@ -48,7 +48,7 @@ public class Detector : MonoBehaviour
             }
        
         if (down == 1) 
-            if((hit = Physics2D.Raycast(transform.position - transform.up * 0.5f, -transform.up, dist)) && (hit.collider.gameObject.tag != "Characters" && hit.transform.parent != parentObject))
+            if((hit = Physics2D.Raycast(transform.position - transform.up, -transform.up, dist)) && (hit.collider.gameObject.tag != "Characters" && hit.transform.parent != parentObject))
             {
                 parent.down = 0;
             }

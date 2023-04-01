@@ -93,8 +93,12 @@ public class movement : MonoBehaviour
             {
                 demage = true;
                 anim.Play("demage");
-                GetComponent<screenshake>().TriggerShake();
                 timer_demage = 0.2f;
+
+                Camera.main.GetComponent<screenshake>().timer = 1f;
+                Camera.main.GetComponent<screenshake>().start = true;
+                Camera.main.GetComponent<screenshake>().ShakeScreen(0.1f, 0.1f, 0.1f);
+                
             }
             
             transform.position += (transform.position - other.gameObject.transform.position);

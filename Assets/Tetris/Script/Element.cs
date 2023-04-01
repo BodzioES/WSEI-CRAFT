@@ -40,6 +40,10 @@ public class Element : MonoBehaviour
     }
     private void OnDestroy()
     {
+        Camera.main.GetComponent<screenshake>().timer = 1f;
+        Camera.main.GetComponent<screenshake>().start = true;
+        Camera.main.GetComponent<screenshake>().ShakeScreen(0.1f, 0.1f, 0.1f);
+
         Instantiate(particle,transform.position,transform.rotation);
     }
 }
