@@ -93,6 +93,7 @@ public class movement : MonoBehaviour
             {
                 demage = true;
                 anim.Play("demage");
+                GetComponent<screenshake>().TriggerShake();
                 timer_demage = 0.2f;
             }
             

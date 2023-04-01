@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class SpawnPoint : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+
+    public GameObject[] Players;
+
+    public GameObject Player = null;
+
+    int index = 0;
+
+    public void addtindex()
     {
-        
+        index++;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void delfromindex()
     {
-        
+        index--;
+    }
+
+    public void SpawnPlayer()
+    { 
+        Player = Players[index];
+    }
+
+    void Start(){
+        DontDestroyOnLoad(this);
     }
 }
